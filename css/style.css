@@ -16,6 +16,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* header section css */
 header{
     width: 100%;
@@ -215,11 +219,13 @@ header{
 .section-title p{
     color: #777;
     font-weight: 400;
+    margin-bottom: 70px !important;
 }
-/* places section code end */
+
 
 .p-item{
     position: relative;
+    
 }
 
 .p-item::before{
@@ -229,7 +235,125 @@ header{
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: #0c3e72;
-    opacity: 0.5;
+    background-color: #2493e0;
+    opacity: 0;
+    width: 100%;
+    transition: 0.5s;
 
 }
+
+.p-item:hover::before{
+    opacity: 0.8;
+    transition: 0.5s;
+
+}
+
+.p-content{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+.p-item:hover .p-content{
+    opacity: 1;
+    transition: 0.5s;
+    transform:translatey(-10px);
+    transition: 1s;
+}
+.p-content a{
+    display: inline-block;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: #fe5c24;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+    
+}
+.p-content h3{
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    margin-bottom: 0;
+    
+}
+.p-content p{
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+.p-content span{
+    color: white;
+    
+}
+
+.p-content span i{
+    color: #fe5c24 !important;
+    
+}
+
+.place-btn{
+    display: flex;
+    justify-content: center ;
+    margin-top: 56px;
+}
+
+.place-btn a{
+    color: white;
+}
+
+/* places section code end */
+
+/* event slider code start */
+#event-slider{
+    width: 100%;
+    padding: 120px 0px;
+    background-image: url(../img/eventcover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.slider-box{
+    background-color: white;
+    padding: 60px;
+
+}
+
+.slider-box h6{
+    color: #fe5c24;
+    margin-bottom: 18px;
+    font-size: 16px;
+    line-height: 1.2em;
+}
+
+.slider-box h3{
+    font-weight: 700;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color:#0c3e72
+}
+
+.slider-box p{
+    margin-bottom:20px ;
+    color: #848484;
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.slider-box a{
+    color:white;
+}
+
+.slider-box p span{
+    color: #0c3e72;
+}
+
+.slider-box p span i{
+    color: #ffc962;
+    margin-bottom: 32px;
+}
+/* event slider code end */
