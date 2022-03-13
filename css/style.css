@@ -146,18 +146,18 @@ header{
 /* Banner section css end */
 
 /* search section css start */
-#search{
+/* #search{
 
-}
+} */
 
 .search-wrapper{
     margin-top: -72px;
     background-color: white;
 }
 
-.trigger-item{
+/* .trigger-item{
    
-}
+} */
 
 .trigger-item ul li{
     padding: 24px;
@@ -356,4 +356,138 @@ header{
     color: #ffc962;
     margin-bottom: 32px;
 }
+ 
+#event-slider .owl-dots{
+    display: none;
+}
+#event-slider .owl-prev{
+    position: absolute;
+    color: #fe5c24;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight:400;
+}
+
+#event-slider .owl-next{
+    position: absolute;
+    color: #fe5c24;
+    right: -100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 60px;
+    font-size: 32px;
+    border-radius: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight:400;
+}
+
+
 /* event slider code end */
+/* popular section css */
+
+#popular-hotel{
+width: 100%;
+padding: 100px 0;    
+}
+
+.place-review i{
+    color: #ffc962;
+}
+#popular-hotel .place-review p{
+    color: #777;
+    margin-top: 6px;
+
+}
+ .place-review h5 span{
+    color: #fe5c24;
+}
+
+
+.place-review h5{
+    color: #0c3e72;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.hotel-banner{
+    margin-bottom: 24px;
+}
+#popular-hotel h3{
+    color: #0c3e72;
+    font-size: 24px;
+    margin-bottom: 21px;
+    
+}
+
+.h-item{
+    border-bottom: 1px solid #ced8e3;
+   
+}
+
+.hotel-link a i{
+        background-color: rgba(255, 255, 255, 0.5);
+        height:40px;
+        width: 40px;
+        color: white;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 100%;
+}
+
+.hotel-link div a i{
+    background-color: rgba(255, 122, 75, 0.7 );
+    margin-bottom: 10px;
+}
+
+.hotel-banner{
+    position: relative;
+
+}
+
+
+.hotel-link{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+   
+
+}
+
+.hotel-link div{
+   
+    transform: scaleY(0);
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+
+.hotel-link:hover div{
+    transform: scaleY(1);
+    transition: 0.5s;
+
+}
+
+.h-share{
+    transform: scaleX(1);
+    transition: 0.5s;
+
+}
+
+.hotel-link:hover .h-share{
+    transform: scaleX(0);
+    transition: 0.5s;
+}
+
+
+/* popular section css end */
+
+
