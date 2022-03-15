@@ -162,6 +162,7 @@ header{
 .trigger-item ul li{
     padding: 24px;
     position: relative;
+    display: inline-block;
 }
 
 .s-form{
@@ -184,8 +185,7 @@ header{
     border-color: #2493e0;
     border-radius: 0;
     color: #2493e0;
-   
- 
+    border: none;
     align-items: center;
     padding: 16px 24px;
 }
@@ -490,4 +490,251 @@ padding: 100px 0;
 
 /* popular section css end */
 
+/* testimonial section css */
+#testimonial{
+    width: 100%;
+    padding: 120px 0px;
+    background-color: #0c3e72;
+    margin-top: 100px;
+}
+
+
+.t-card{
+    background-color: #0e477d;
+    padding: 32px;
+}
+
+
+
+.t-card p{
+    padding: 26px 0px;
+    color: white;
+
+}
+
+.t-card h6{
+    color: white;
+}
+#testimonial .review-star{
+    color: #ffc962;
+    display: inline-block;
+}
+
+#testimonial .owl-dots{
+    display: none;
+}
+
+#testimonial .section-title h3{
+    color: white;
+    font-size: 46px;
+    
+    font-weight: 500; 
+    margin-bottom: 60px;
+    text-align: start;
+}
+
+#t-row{
+    position: relative;
+}
+#testimonial .owl-next{
+    background: #2493e0;
+    border-radius: 0%;
+    height: 45px;
+    width: 45px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: -100px;
+    right: 8px;
+    font-weight: 100;
+
+}
+
+#testimonial .owl-prev{
+    background: #2493e0;
+    border-radius: 0%;
+    height: 45px;
+    width: 45px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: -100px;
+    right: 60px;
+    font-weight: 100;
+    
+}
+
+/* best services css start */
+
+.bestservices{
+    width: 100%;
+    padding: 120px 0;
+}
+
+.bestservices .section-title h6{
+    font-size: 46px;
+    color: #0c3e72;
+    line-height: 1.1;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
+
+.bestservices .section-title p{
+    color: #777;
+    font-weight: 400;
+}
+
+
+.s-item h3{
+    margin-top: 30px;
+    font-size: 24px;
+    color: #0c3e72;
+   margin-bottom: 0px !important;
+    
+}
+
+.s-item p{
+    font-size: 16px;
+    color: #a2a2a2;
+    margin-top: 12px;
+}
+/* best services css end */
+/* footer section css start */
+
+footer{
+    width: 100%;
+    padding: 120px 0;
+    background-color: #162b45;
+}
+
+.footer-content ul{
+    columns: 2;
+
+
+}
+
+.footer-content h4{
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+.footer-content ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    transition: 0.5s;
+
+}
+
+.footer-content ul li a:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+}
+
+.footer-content ul li{
+    padding-top: 16px;
+}
+
+.footer-content ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0 !important;
+}
+.footer-content p{
+    color: white;
+   
+
+}
+
+.footer-content form input{
+    height: 50px;
+    border: none;
+    width: 67% !important;
+    font-weight: 400;
+    padding-left: 20px;
+    border-radius: 0;
+    font-size: 13px;
+    color: #999;
+    background-color: #092742;
+    border: 0 solid transparent;
+  
+}
+
+.footer-content form input:focus{
+    box-shadow: none;
+    outline: none;
+    
+}
+.footer-content form a {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-content form a i{
+
+
+    background-color: #fe5c24;
+    color: #fff;
+    border-radius: 0;
+    padding: 18px 20px;
+    border: 0;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 0 !important;
+    
+
+
+}
+
+.footer-content .subscribe-txt{
+    margin-top: 20px;
+}
+
+.footer-content h6{
+    color: white;
+    margin-bottom: 24px;
+}
+
+.footer-content span{
+    color: #fe5c24;
+
+
+}
+
+.footer-content .s-icons i{
+    color: white;
+    margin-top: 30px;
+    padding: 0px 8px ;
+    transition: 0.5s;
+}
+
+.footer-content .s-icons i:hover{
+    color: #fe5c24;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.copyright{
+    width: 100%;
+    padding: 32px 15px;
+    background-color: #092742;
+
+}
+.copyright p{
+ color: white;
+ text-align: center;
+
+}
+
+
+/*footer section css end */
 
